@@ -1,0 +1,76 @@
+.heading{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.postdata {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.blur{
+  position: absolute;
+  width:40rem;
+  background: #edd0ff;
+  height: 18rem;
+  border-radius: 10%;
+  filter: blur(212px);
+  z-index: -9;
+  top: 20%;
+  left: 25%;
+  filter: blur(72px);
+
+}
+.form-select {
+  width: 140px; /* Set the desired width */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* Add margin for spacing */
+}
+.n-container {
+  display: flex;
+  flex-direction: row; /* Stack children in a column layout */
+  align-items: center; /* Horizontally center-align children */
+  /* margin-bottom: 3rem; */
+  /* margin-right: 2rem; */
+}
+
+.n-left{
+  margin-left: 9rem;
+  flex:1;
+}
+.n-right{
+  margin-right: 9rem;
+  flex:1
+}
+.s-blur2 {
+  position: absolute;
+  width:15rem;
+  background: #edd0ff;
+  height: 8rem;
+  border-radius: 10%;
+  filter: blur(212px);
+  z-index: -9;
+  top: 60%;
+  left: 75%;
+  filter: blur(72px);
+}
+
+.s-blur1 {
+  position: absolute;
+  width:15rem;
+  background: #edd0ff;
+  height: 8rem;
+  border-radius: 10%;
+  filter: blur(212px);
+  z-index: -9;
+  top: 65%;
+  left: 5%;
+  filter: blur(72px);
+  
+}
+

@@ -1,0 +1,29 @@
+.ac-container {
+    display: flex;
+    flex-direction: row; /* Stack children in a column layout */
+    align-items: center; /* Horizontally center-align children */
+    /* margin-bottom: 3rem; */
+    /* margin-right: 2rem; */
+    height: 10vh;
+    margin-bottom: 2rem;
+  }
+  
+  .ac-left{
+    /* margin-left: 8rem; */
+    padding-left: 18%;
+    flex:1;
+    justify-content: center;
+    border: 1px;
+  }
+  .ac-right{
+    padding-left: 7%;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+    flex:1
+  }
+
+  .heading{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }

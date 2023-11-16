@@ -1,0 +1,46 @@
+.b-container {
+    display: flex;
+    flex-direction: row; /* Stack children in a column layout */
+    align-items: center; /* Horizontally center-align children */
+    /* margin-bottom: 3rem; */
+    /* margin-right: 2rem; */
+  }
+  
+  .b-left{
+    /* margin-left: 8rem; */
+    padding-left: 22%;
+    flex:1;
+    justify-content: center;
+    border: 1px;
+  }
+  .b-right{
+    padding-left: 5%;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+    flex:1
+  }
+
+  .block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    /* margin-top: 5%; */
+  }
+  .input{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+    /* margin: 1rem;
+    height:35px; */
+  }
+  .button{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    /* border :1rem; */
+  }

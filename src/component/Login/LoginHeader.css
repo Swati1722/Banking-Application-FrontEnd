@@ -1,0 +1,25 @@
+.h-container{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    /* border-radius: 4%; */
+    
+    
+    top: 0;
+    font-family: "Gumela";
+    background-color: #5b95ec;
+}
+
+.h-right{
+    margin-right: 2rem;
+    flex: 1;
+    padding: 6%,6%;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    gap: 3rem;
+
+    
+}

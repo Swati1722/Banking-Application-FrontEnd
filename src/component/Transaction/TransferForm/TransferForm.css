@@ -1,0 +1,92 @@
+.t-container{
+ 
+    margin-top: 4rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    /* justify-content: center; */
+
+    height: 60vh;
+    width: 65vh;
+    border: 1.5px solid black;
+    border-radius: 5%;
+    /* padding: 1.5rem; */
+
+}
+.t-heading{
+    height: 6vh;
+    border-radius: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    justify-content: center;
+    /* background-color: #5b95ec; */
+    
+}
+.t-body{
+    margin: 1.5rem  ;
+}
+
+.t-button{
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+.t-senderaccount{
+    margin-bottom: .5rem;
+    margin-left:  .8rem;
+}
+#senderAccount{
+    margin-left: 1.6rem;
+    width: 9rem;
+    height: 2rem
+}
+
+.t-receiveraccount{
+    margin-bottom: .5rem;
+    margin-left:  .8rem;
+}
+#receiverAccount{
+    margin-left: 1rem;
+    width: 9rem;
+    height: 2rem;
+
+}
+
+
+
+.t-amount{
+    margin-bottom: .5rem;
+    margin-left:  .8rem;
+}
+#t-amount{
+    margin-left: 5rem;
+    width: 9rem;
+    height: 2rem;
+
+}
+.t-blur{
+    position: absolute;
+    width:35rem;
+    left: 30%;
+    background: #edd0ff;
+    height: 30rem;
+    border-radius: 10%;
+    filter: blur(212px);
+    z-index: -9;
+    top: 12%;
+    filter: blur(72px);
+}
+.t-submitbutton{
+    margin-top: 1.5rem;
+    /* border-radius: 5%; */
+    /* border: none; */
+   
+    cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .t-submitbutton:hover {
+    /* Styles for when the button is hovered */
+    /* background-color: #5b95ec;
+  }  */

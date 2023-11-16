@@ -1,0 +1,63 @@
+.a-wrapper{
+
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  font-family: "Gumela";
+  background-color: #5b95ec;
+}
+
+.a-left {
+  flex: 1;
+  padding: 6%,6%;
+  margin-left: 2rem;
+  margin-top: .5rem;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 1rem;
+}
+.a-right{
+
+  margin-right: 2rem;
+    margin-bottom: 2rem;
+    /* margin-left: 2rem; */
+    flex: 1;
+    padding: 6%,6%;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: right;
+    display: flex;
+    gap: 2rem;
+  
+}
+.a-app{
+  flex: 1;
+  align-items: left;
+  justify-content: left;
+  text-decoration: none;
+  /* margin: 2%; */
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+ 
+  
+}
+
+  .d-text {
+    text-decoration: none; /* Remove default underline */
+    color: white; /* Default text color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+
+  .d-text:hover {
+    color: black; 
+    /* background-color: rgb(117, 98, 73); */
+    
+   }
+ 
+  
+  
+  

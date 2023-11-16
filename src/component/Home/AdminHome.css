@@ -1,0 +1,20 @@
+.n-bank{
+    margin-top: 15%;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.blur{
+    position: absolute;
+    width:40rem;
+    background: #edd0ff;
+    height: 18rem;
+    border-radius: 10%;
+    filter: blur(212px);
+    z-index: -9;
+    top: 20%;
+    left: 25%;
+    filter: blur(72px);
+  
+  }

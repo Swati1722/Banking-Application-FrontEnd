@@ -1,0 +1,33 @@
+.heading{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+
+.n-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    /* Horizontally center-align children */ 
+    /* margin-bottom: 1rem; */
+    /* margin-right: 2rem; */
+  }
+  
+  .n-left{
+    padding-left: 5%;
+    /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+  }
+  .n-right{
+    padding-left: 38%;
+    margin-left: 40rem;
+    margin-top: 2.5rem;
+    /* display: flex; */
+  align-items: center;
+  margin-left: 1rem;
+    
+  }
+
+  
